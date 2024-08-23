@@ -1,0 +1,6 @@
+@include('head')
+        @include('sidebar')
+        @include('header')
+        @yield('content')
+@include('footer')
+@yield('scripts')

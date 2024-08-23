@@ -1,0 +1,6 @@
+@include('wbxadmin.head')
+        @include('wbxadmin.sidebar')
+        @include('wbxadmin.header')
+        @yield('content')
+@include('wbxadmin.footer')
+@yield('scripts')
